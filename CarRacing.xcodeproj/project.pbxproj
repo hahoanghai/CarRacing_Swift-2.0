@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090552D61C6130FA009E0CDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090552D51C6130FA009E0CDE /* AppDelegate.swift */; };
+		090552D81C6130FA009E0CDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090552D71C6130FA009E0CDE /* ViewController.swift */; };
+		090552DB1C6130FA009E0CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090552D91C6130FA009E0CDE /* Main.storyboard */; };
+		090552DD1C6130FA009E0CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090552DC1C6130FA009E0CDE /* Assets.xcassets */; };
+		090552E01C6130FA009E0CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090552DE1C6130FA009E0CDE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		090552D21C6130FA009E0CDE /* CarRacing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRacing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		090552D51C6130FA009E0CDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		090552D71C6130FA009E0CDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		090552DA1C6130FA009E0CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		090552DC1C6130FA009E0CDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		090552DF1C6130FA009E0CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		090552E11C6130FA009E0CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090552CF1C6130FA009E0CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090552C91C6130FA009E0CDE = {
+			isa = PBXGroup;
+			children = (
+				090552D41C6130FA009E0CDE /* CarRacing */,
+				090552D31C6130FA009E0CDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		090552D31C6130FA009E0CDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090552D21C6130FA009E0CDE /* CarRacing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		090552D41C6130FA009E0CDE /* CarRacing */ = {
+			isa = PBXGroup;
+			children = (
+				090552D51C6130FA009E0CDE /* AppDelegate.swift */,
+				090552D71C6130FA009E0CDE /* ViewController.swift */,
+				090552D91C6130FA009E0CDE /* Main.storyboard */,
+				090552DC1C6130FA009E0CDE /* Assets.xcassets */,
+				090552DE1C6130FA009E0CDE /* LaunchScreen.storyboard */,
+				090552E11C6130FA009E0CDE /* Info.plist */,
+			);
+			path = CarRacing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		090552D11C6130FA009E0CDE /* CarRacing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090552E41C6130FA009E0CDE /* Build configuration list for PBXNativeTarget "CarRacing" */;
+			buildPhases = (
+				090552CE1C6130FA009E0CDE /* Sources */,
+				090552CF1C6130FA009E0CDE /* Frameworks */,
+				090552D01C6130FA009E0CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarRacing;
+			productName = CarRacing;
+			productReference = 090552D21C6130FA009E0CDE /* CarRacing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		090552CA1C6130FA009E0CDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hai Hoang Ha";
+				TargetAttributes = {
+					090552D11C6130FA009E0CDE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6G72CY96YS;
+					};
+				};
+			};
+			buildConfigurationList = 090552CD1C6130FA009E0CDE /* Build configuration list for PBXProject "CarRacing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 090552C91C6130FA009E0CDE;
+			productRefGroup = 090552D31C6130FA009E0CDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				090552D11C6130FA009E0CDE /* CarRacing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		090552D01C6130FA009E0CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090552E01C6130FA009E0CDE /* LaunchScreen.storyboard in Resources */,
+				090552DD1C6130FA009E0CDE /* Assets.xcassets in Resources */,
+				090552DB1C6130FA009E0CDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		090552CE1C6130FA009E0CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090552D81C6130FA009E0CDE /* ViewController.swift in Sources */,
+				090552D61C6130FA009E0CDE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		090552D91C6130FA009E0CDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090552DA1C6130FA009E0CDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		090552DE1C6130FA009E0CDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090552DF1C6130FA009E0CDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		090552E21C6130FA009E0CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		090552E31C6130FA009E0CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		090552E51C6130FA009E0CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CarRacing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.bcit.Hai.CarRacing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		090552E61C6130FA009E0CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CarRacing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.bcit.Hai.CarRacing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		090552CD1C6130FA009E0CDE /* Build configuration list for PBXProject "CarRacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090552E21C6130FA009E0CDE /* Debug */,
+				090552E31C6130FA009E0CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090552E41C6130FA009E0CDE /* Build configuration list for PBXNativeTarget "CarRacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090552E51C6130FA009E0CDE /* Debug */,
+				090552E61C6130FA009E0CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 090552CA1C6130FA009E0CDE /* Project object */;
+}
